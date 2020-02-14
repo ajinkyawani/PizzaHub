@@ -19,11 +19,34 @@ class PizzaHubTests: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
 
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    func testMenuItemInitSucceeds() {
+        let smallPepperoniItem = MenuItem.init(name: "Small Pepperoni", price: 12.50)
+        XCTAssertNotNil(smallPepperoniItem)
+        
+        let largePepperoniItem = MenuItem.init(name: "Large Pepperoni", price: 27.00)
+        XCTAssertNotNil(largePepperoniItem)
     }
 
+    func testMenuItemInitFails() {
+        let noDescriptionItem = MenuItem.init(name: "", price: 12.20)
+        XCTAssertNil(noDescriptionItem)
+        
+        let negativePriceItem = MenuItem.init(name: "Large Pizza", price: -2.30)
+        XCTAssertNil(negativePriceItem)
+        
+    }
+    
+    func testShoppingCartAddItem() {
+        let smallPepperoniItem = MenuItem.init(name: "Small Pepperoni", price: 12.50)
+        let largePepperoniItem = MenuItem.init(name: "Large Pepperoni", price: 27.00)
+        
+        let cart = ShoppingcCart.init()
+        cart.addItem(item: smallPepperoniItem)
+        cart.addItem(item: largePepperoniItem)
+        XCTAssertEqual(2, cart.items.count)
+        
+    }
+    
     func testPerformanceExample() {
         // This is an example of a performance test case.
         self.measure {
