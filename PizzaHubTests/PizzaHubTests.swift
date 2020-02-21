@@ -41,8 +41,8 @@ class PizzaHubTests: XCTestCase {
         let largePepperoniItem = MenuItem.init(name: "Large Pepperoni", price: 27.00)
         
         let cart = ShoppingcCart.init()
-        cart.addItem(item: smallPepperoniItem)
-        cart.addItem(item: largePepperoniItem)
+        cart.addItem(item: smallPepperoniItem!)
+        cart.addItem(item: largePepperoniItem!)
         XCTAssertEqual(2, cart.items.count)
         
     }

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		261B5E4623FF8E9300CFEE81 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 261B5E4523FF8E9300CFEE81 /* GoogleService-Info.plist */; };
+		261B5E4723FF8E9300CFEE81 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 261B5E4523FF8E9300CFEE81 /* GoogleService-Info.plist */; };
+		261B5E4823FF8E9300CFEE81 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 261B5E4523FF8E9300CFEE81 /* GoogleService-Info.plist */; };
 		2652933923F626400033E6B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2652933823F626400033E6B8 /* AppDelegate.swift */; };
 		2652933B23F626400033E6B8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2652933A23F626400033E6B8 /* SceneDelegate.swift */; };
 		2652933D23F626400033E6B8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2652933C23F626400033E6B8 /* ContentView.swift */; };
@@ -21,6 +24,9 @@
 		2652936E23F634760033E6B8 /* ShoppingCart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2652936D23F634760033E6B8 /* ShoppingCart.swift */; };
 		2652936F23F634760033E6B8 /* ShoppingCart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2652936D23F634760033E6B8 /* ShoppingCart.swift */; };
 		2652937023F634760033E6B8 /* ShoppingCart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2652936D23F634760033E6B8 /* ShoppingCart.swift */; };
+		2773A7A56883AE9875A5E0D5 /* Pods_PizzaHub_PizzaHubUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A9D43471E9E104C9943049A /* Pods_PizzaHub_PizzaHubUITests.framework */; };
+		8CAE5600050A7CF28D18364F /* Pods_PizzaHub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28A350EC2D04B426A588587F /* Pods_PizzaHub.framework */; };
+		AA9DB15AC2FD688D2286851D /* Pods_PizzaHubTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74FF6DC4B515A99EADD6A191 /* Pods_PizzaHubTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +47,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		261B5E4523FF8E9300CFEE81 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		2652933523F626400033E6B8 /* PizzaHub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PizzaHub.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2652933823F626400033E6B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2652933A23F626400033E6B8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -57,6 +64,15 @@
 		2652935C23F626490033E6B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2652936923F62C730033E6B8 /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
 		2652936D23F634760033E6B8 /* ShoppingCart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingCart.swift; sourceTree = "<group>"; };
+		28A350EC2D04B426A588587F /* Pods_PizzaHub.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PizzaHub.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		380F371171C362DADB4F8B9B /* Pods-PizzaHubTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PizzaHubTests.debug.xcconfig"; path = "Target Support Files/Pods-PizzaHubTests/Pods-PizzaHubTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5EAEE61480D131535C5ADD16 /* Pods-PizzaHub-PizzaHubUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PizzaHub-PizzaHubUITests.debug.xcconfig"; path = "Target Support Files/Pods-PizzaHub-PizzaHubUITests/Pods-PizzaHub-PizzaHubUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6EFF65FFB26DF594131EF960 /* Pods-PizzaHub.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PizzaHub.release.xcconfig"; path = "Target Support Files/Pods-PizzaHub/Pods-PizzaHub.release.xcconfig"; sourceTree = "<group>"; };
+		74FF6DC4B515A99EADD6A191 /* Pods_PizzaHubTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PizzaHubTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		91E5C2B41B93CEA0551A6D52 /* Pods-PizzaHub.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PizzaHub.debug.xcconfig"; path = "Target Support Files/Pods-PizzaHub/Pods-PizzaHub.debug.xcconfig"; sourceTree = "<group>"; };
+		9A9D43471E9E104C9943049A /* Pods_PizzaHub_PizzaHubUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PizzaHub_PizzaHubUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A17077CFED866709C4893289 /* Pods-PizzaHubTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PizzaHubTests.release.xcconfig"; path = "Target Support Files/Pods-PizzaHubTests/Pods-PizzaHubTests.release.xcconfig"; sourceTree = "<group>"; };
+		C613688E90C90756981949C5 /* Pods-PizzaHub-PizzaHubUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PizzaHub-PizzaHubUITests.release.xcconfig"; path = "Target Support Files/Pods-PizzaHub-PizzaHubUITests/Pods-PizzaHub-PizzaHubUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CAE5600050A7CF28D18364F /* Pods_PizzaHub.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA9DB15AC2FD688D2286851D /* Pods_PizzaHubTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2773A7A56883AE9875A5E0D5 /* Pods_PizzaHub_PizzaHubUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,6 +110,8 @@
 				2652934E23F626490033E6B8 /* PizzaHubTests */,
 				2652935923F626490033E6B8 /* PizzaHubUITests */,
 				2652933623F626400033E6B8 /* Products */,
+				D48BAA06255240488EE44F27 /* Pods */,
+				C5E50F461D63A07F4E8880A0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -114,6 +135,7 @@
 				2652933E23F626480033E6B8 /* Assets.xcassets */,
 				2652934323F626480033E6B8 /* LaunchScreen.storyboard */,
 				2652934623F626480033E6B8 /* Info.plist */,
+				261B5E4523FF8E9300CFEE81 /* GoogleService-Info.plist */,
 				2652934023F626480033E6B8 /* Preview Content */,
 			);
 			path = PizzaHub;
@@ -154,6 +176,30 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		C5E50F461D63A07F4E8880A0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				28A350EC2D04B426A588587F /* Pods_PizzaHub.framework */,
+				9A9D43471E9E104C9943049A /* Pods_PizzaHub_PizzaHubUITests.framework */,
+				74FF6DC4B515A99EADD6A191 /* Pods_PizzaHubTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D48BAA06255240488EE44F27 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				91E5C2B41B93CEA0551A6D52 /* Pods-PizzaHub.debug.xcconfig */,
+				6EFF65FFB26DF594131EF960 /* Pods-PizzaHub.release.xcconfig */,
+				5EAEE61480D131535C5ADD16 /* Pods-PizzaHub-PizzaHubUITests.debug.xcconfig */,
+				C613688E90C90756981949C5 /* Pods-PizzaHub-PizzaHubUITests.release.xcconfig */,
+				380F371171C362DADB4F8B9B /* Pods-PizzaHubTests.debug.xcconfig */,
+				A17077CFED866709C4893289 /* Pods-PizzaHubTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -161,9 +207,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2652935F23F626490033E6B8 /* Build configuration list for PBXNativeTarget "PizzaHub" */;
 			buildPhases = (
+				AA45A2B4E12301EE57F60038 /* [CP] Check Pods Manifest.lock */,
 				2652933123F626400033E6B8 /* Sources */,
 				2652933223F626400033E6B8 /* Frameworks */,
 				2652933323F626400033E6B8 /* Resources */,
+				B00E828BBC8F87C280F2383B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -178,6 +226,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2652936223F626490033E6B8 /* Build configuration list for PBXNativeTarget "PizzaHubTests" */;
 			buildPhases = (
+				3001989C6BB065484C5D2CB3 /* [CP] Check Pods Manifest.lock */,
 				2652934723F626490033E6B8 /* Sources */,
 				2652934823F626490033E6B8 /* Frameworks */,
 				2652934923F626490033E6B8 /* Resources */,
@@ -196,9 +245,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2652936523F626490033E6B8 /* Build configuration list for PBXNativeTarget "PizzaHubUITests" */;
 			buildPhases = (
+				053E2F8800F3E4BFB918046B /* [CP] Check Pods Manifest.lock */,
 				2652935223F626490033E6B8 /* Sources */,
 				2652935323F626490033E6B8 /* Frameworks */,
 				2652935423F626490033E6B8 /* Resources */,
+				FBF11351A60AD5BCC0E33952 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -259,6 +310,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2652934523F626480033E6B8 /* LaunchScreen.storyboard in Resources */,
+				261B5E4623FF8E9300CFEE81 /* GoogleService-Info.plist in Resources */,
 				2652934223F626480033E6B8 /* Preview Assets.xcassets in Resources */,
 				2652933F23F626480033E6B8 /* Assets.xcassets in Resources */,
 			);
@@ -268,6 +320,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				261B5E4723FF8E9300CFEE81 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,10 +328,114 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				261B5E4823FF8E9300CFEE81 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		053E2F8800F3E4BFB918046B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PizzaHub-PizzaHubUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3001989C6BB065484C5D2CB3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PizzaHubTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA45A2B4E12301EE57F60038 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PizzaHub-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B00E828BBC8F87C280F2383B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PizzaHub/Pods-PizzaHub-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PizzaHub/Pods-PizzaHub-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PizzaHub/Pods-PizzaHub-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FBF11351A60AD5BCC0E33952 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PizzaHub-PizzaHubUITests/Pods-PizzaHub-PizzaHubUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PizzaHub-PizzaHubUITests/Pods-PizzaHub-PizzaHubUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PizzaHub-PizzaHubUITests/Pods-PizzaHub-PizzaHubUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2652933123F626400033E6B8 /* Sources */ = {
@@ -456,6 +613,7 @@
 		};
 		2652936023F626490033E6B8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91E5C2B41B93CEA0551A6D52 /* Pods-PizzaHub.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -475,6 +633,7 @@
 		};
 		2652936123F626490033E6B8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EFF65FFB26DF594131EF960 /* Pods-PizzaHub.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -494,6 +653,7 @@
 		};
 		2652936323F626490033E6B8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 380F371171C362DADB4F8B9B /* Pods-PizzaHubTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +675,7 @@
 		};
 		2652936423F626490033E6B8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A17077CFED866709C4893289 /* Pods-PizzaHubTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -536,6 +697,7 @@
 		};
 		2652936623F626490033E6B8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EAEE61480D131535C5ADD16 /* Pods-PizzaHub-PizzaHubUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -555,6 +717,7 @@
 		};
 		2652936723F626490033E6B8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C613688E90C90756981949C5 /* Pods-PizzaHub-PizzaHubUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
