@@ -76,6 +76,12 @@ private func createPizzerias() {
         "city": "Groton",
         "state": "CT"
     ])
+    
+    pizzeriasRef.document("New Haven Pizza").setData([
+           "name": "New Haven Pizza",
+           "city": "New Haven",
+           "state": "CT"
+       ])
 }
 
 private func updatePizzerias() {
